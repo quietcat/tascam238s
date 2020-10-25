@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 1 2
+Sheet 1 1
 Title ""
 Date ""
 Rev ""
@@ -460,17 +460,6 @@ Wire Wire Line
 	2100 5250 2100 5500
 Wire Wire Line
 	2100 4500 2100 4650
-$Comp
-L Device:Q_PNP_EBC Q30
-U 1 1 5F807F96
-P 6550 1300
-F 0 "Q30" H 6740 1254 50  0000 L CNN
-F 1 "PNP" H 6740 1345 50  0000 L CNN
-F 2 "" H 6750 1400 50  0001 C CNN
-F 3 "~" H 6550 1300 50  0001 C CNN
-	1    6550 1300
-	1    0    0    1   
-$EndComp
 Wire Wire Line
 	4100 950  6650 950 
 Wire Wire Line
@@ -486,17 +475,6 @@ F 2 "" H 6200 1300 50  0001 C CNN
 F 3 "~" H 6200 1300 50  0001 C CNN
 	1    6200 1300
 	-1   0    0    1   
-$EndComp
-$Comp
-L Device:Q_NPN_EBC Q31
-U 1 1 5F80BFEA
-P 6550 2150
-F 0 "Q31" H 6741 2104 50  0000 L CNN
-F 1 "NPN" H 6741 2195 50  0000 L CNN
-F 2 "" H 6750 2250 50  0001 C CNN
-F 3 "~" H 6550 2150 50  0001 C CNN
-	1    6550 2150
-	1    0    0    1   
 $EndComp
 Wire Wire Line
 	6650 1500 6650 1750
@@ -1852,11 +1830,27 @@ Wire Wire Line
 Wire Wire Line
 	5600 2500 6050 2500
 Text Notes 750  7950 0    79   ~ 0
-Tascam 238S R/P AMP PCB\nCircuits specific to Dolby S\nPlayback amp, record amp and erase circuits are identical to 238\n238pro.com\nv2020.10.10
-$Sheet
-S 11350 6400 4000 800 
-U 5F8BA977
-F0 "DolbyS-NR-HIC" 50
-F1 "DolbyS-NR-HIC.sch" 50
-$EndSheet
+Tascam 238S R/P AMP PCB\nCircuits specific to Dolby S\nPlayback amp, record amp and erase circuits are identical to 238\n238pro.com\nv2020.10.27
+$Comp
+L Device:Q_NJFET_DGS Q31
+U 1 1 5F96A47F
+P 6550 2150
+F 0 "Q31" H 6740 2104 50  0000 L CNN
+F 1 "K8124D" H 6740 2195 50  0000 L CNN
+F 2 "" H 6750 2250 50  0001 C CNN
+F 3 "~" H 6550 2150 50  0001 C CNN
+	1    6550 2150
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Q_PJFET_DGS Q30
+U 1 1 5F96BCED
+P 6550 1300
+F 0 "Q30" H 6741 1254 50  0000 L CNN
+F 1 "J4021D" H 6741 1345 50  0000 L CNN
+F 2 "" H 6750 1400 50  0001 C CNN
+F 3 "~" H 6550 1300 50  0001 C CNN
+	1    6550 1300
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC
