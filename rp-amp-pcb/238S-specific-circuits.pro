@@ -1,4 +1,4 @@
-update=Sun 25 Oct 2020 11:57:40 AM EDT
+update=Sun 25 Oct 2020 04:31:14 PM EDT
 version=1
 last_client=kicad
 [general]
@@ -33,7 +33,7 @@ LibDir=
 [eeschema/libraries]
 [schematic_editor]
 version=1
-PageLayoutDescrFile=no_frame.kicad_wks
+PageLayoutDescrFile=
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
