@@ -5,8 +5,8 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 2 2
 Title "Dolby S Encoder"
-Date "2020-10-27"
-Rev "2020.10.27"
+Date "2020-10-25"
+Rev "2020.10.25"
 Comp "238pro.com"
 Comment1 "Values in parentheses are from the datasheet"
 Comment2 ""
