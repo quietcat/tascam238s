@@ -5,8 +5,8 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 2
 Title "DOLBY S NR HIC PCB"
-Date "2020-10-27"
-Rev "2020.10.27"
+Date "2020-10-25"
+Rev "2020.10.25"
 Comp "238pro.com"
 Comment1 "Pins 5 through 16 on J1 do not have pads on the board"
 Comment2 "Tascam 238S Dolby S daughtercard schematic"
