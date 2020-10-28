@@ -5,8 +5,8 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 2
 Title "DOLBY S NR HIC PCB"
-Date "2020-10-25"
-Rev "2020.10.25"
+Date "2020-10-27"
+Rev "2020.10.27"
 Comp "238pro.com"
 Comment1 "Pins 5 through 16 on J1 do not have pads on the board"
 Comment2 "Tascam 238S Dolby S daughtercard schematic"
@@ -364,44 +364,44 @@ $Comp
 L Device:Q_PJFET_DSG Q1
 U 1 1 5F95CA96
 P 4500 3550
-F 0 "Q1" H 4690 3596 50  0000 L CNN
-F 1 "JE" H 4690 3505 50  0000 L CNN
+F 0 "Q1" H 4700 3525 50  0000 L CNN
+F 1 "JE" H 4700 3600 50  0000 L CNN
 F 2 "" H 4700 3650 50  0001 C CNN
 F 3 "~" H 4500 3550 50  0001 C CNN
 	1    4500 3550
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:Q_PJFET_DSG Q3
 U 1 1 5F95E60D
 P 3000 3550
-F 0 "Q3" H 3190 3596 50  0000 L CNN
-F 1 "JE" H 3190 3505 50  0000 L CNN
+F 0 "Q3" H 3200 3525 50  0000 L CNN
+F 1 "JE" H 3200 3600 50  0000 L CNN
 F 2 "" H 3200 3650 50  0001 C CNN
 F 3 "~" H 3000 3550 50  0001 C CNN
 	1    3000 3550
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:Q_NJFET_DSG Q2
 U 1 1 5F960234
 P 3900 3550
-F 0 "Q2" H 4090 3596 50  0000 L CNN
-F 1 "KD" H 4090 3505 50  0000 L CNN
+F 0 "Q2" H 4100 3525 50  0000 L CNN
+F 1 "KD" H 4100 3600 50  0000 L CNN
 F 2 "" H 4100 3650 50  0001 C CNN
 F 3 "~" H 3900 3550 50  0001 C CNN
 	1    3900 3550
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:Q_NJFET_DSG Q4
 U 1 1 5F9620DE
 P 2400 3550
-F 0 "Q4" H 2590 3596 50  0000 L CNN
-F 1 "KD" H 2590 3505 50  0000 L CNN
+F 0 "Q4" H 2600 3525 50  0000 L CNN
+F 1 "KD" H 2600 3600 50  0000 L CNN
 F 2 "" H 2600 3650 50  0001 C CNN
 F 3 "~" H 2400 3550 50  0001 C CNN
 	1    2400 3550
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $EndSCHEMATC

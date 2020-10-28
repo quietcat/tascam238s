@@ -5,11 +5,11 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 2 2
 Title "Dolby S Encoder"
-Date "2020-10-25"
-Rev "2020.10.25"
+Date "2020-10-27"
+Rev "2020.10.27"
 Comp "238pro.com"
-Comment1 "Values in parentheses are from the datasheet"
-Comment2 ""
+Comment1 " "
+Comment2 "Values in parentheses are from the datasheet"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -1808,4 +1808,6 @@ F 3 "~" H 5600 5450 50  0001 C CNN
 	1    5600 5450
 	1    0    0    -1  
 $EndComp
+Text Notes 1225 7600 0    50   ~ 0
+The datasheet has separate VCT and GND buses which are combined into GND in this schematic
 $EndSCHEMATC
