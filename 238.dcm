@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DOLBY_S_CONN
+D Generic connector, single row, 01x27, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP D_223
+D Diode
+K diode
+F ~
+$ENDCMP
+#
+#End Doc Library
