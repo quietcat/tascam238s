@@ -4,12 +4,12 @@ EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 2
-Title "DOLBY S NR HIC PCB"
-Date "2020-10-30"
-Rev "2020.10.30"
+Title "Tascam 238S DOLBY S NR HIC PCB"
+Date "2020-11-01"
+Rev "2020.11.01"
 Comp "238pro.com"
 Comment1 "Pins 5 through 16 on J1 do not have pads on the board"
-Comment2 "Tascam 238S Dolby S daughtercard schematic"
+Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -416,4 +416,6 @@ Connection ~ 3700 3750
 Wire Wire Line
 	2100 3750 2200 3750
 Connection ~ 2200 3750
+Text Notes 925  7550 0    50   ~ 0
+Diodes D1-D4 are SOT-223 parts with anode on pin 2 and cathode on pin 3, with pin 1 not connected.\nModern diodes in the same package have anode on pin 1 and cathode on pin 3, with pin 2 not connected.\nTo accommodate both pinouts, anode pins 1 and 2 are connected on the PCB layout.
 $EndSCHEMATC
