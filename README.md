@@ -13,6 +13,8 @@ https://github.com/quietcat/tascam238s/blob/main/dolby-hic.pdf
 
 Contains Kicad schematics for Dolby S NR HIC PCB, a Dolby encoder/decoder daughtercard for Tascam 238S
 
+https://github.com/quietcat/tascam238s/tree/main/dolby-hic/gerbers contains Gerber files for a replacement Dolby PCB. The layout is different from the original, but functionally it is the same.
+
 Visit https://238pro.com for more information on Tascam 238/238S repair and service
 
 ## 238S Calibration
